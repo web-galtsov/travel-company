@@ -1,4 +1,7 @@
 ﻿https://www.youtube.com/watch?v=I2UBjN5ER4s
+https://www.youtube.com/watch?v=I2UBjN5ER4s&list=RDCMUCsKsymTY_4BYR-wytLjex7A&start_radio=1&t=94
+
+
 
 https://www.youtube.com/watch?v=K7gRndVwu7g
 
@@ -44,6 +47,8 @@ https://github.com/styled-components/webstorm-styled-components
 
 		npm install --save-dev cross-env
 
+		npm install --save-dev css-loader
+
 		npm install --save-dev clean-webpack-plugin
 
 		npm install --save-dev html-webpack-plugin
@@ -62,12 +67,14 @@ https://github.com/styled-components/webstorm-styled-components
 
 		npm i webpack-merge
 
-
+		
 
 
 		npm i @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev
 
 		npm install --save-dev @babel/plugin-proposal-class-properties
+
+		npm install --save @babel/polyfill
 
 		npm i webpack-merge
 
@@ -76,6 +83,10 @@ https://github.com/styled-components/webstorm-styled-components
 		npm install --save-dev react-hot-loader
 
 		npm install --save react react-dom
+
+		npm install web-vitals	 // mp4 scr	
+		
+		
 
 
 		

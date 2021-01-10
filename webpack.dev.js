@@ -1,14 +1,14 @@
 const path = require('path');
 const { merge } = require('webpack-merge');
 const common = require('./webpack.config');
-//const HtmlWebPackPlugin = require('html-webpack-plugin');
 
 module.exports = merge(common, {
     mode: "development",
     devtool: 'inline-source-map',
     output: {
         filename: "[name].build.js",
-        path: path.resolve ( __dirname, 'dist' )
+        path: path.resolve ( __dirname, 'dist' ),
+        publicPath: '/'
     },
     devServer: {
         contentBase: path.join ( __dirname, "build" ),

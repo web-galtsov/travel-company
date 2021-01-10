@@ -15,7 +15,7 @@ module.exports = {
     output: {
         filename: "[name].[hash].build.js",
         path: path.resolve ( __dirname, 'dist' ),
-        publicPath: './'
+        publicPath: '/'
     },
     resolve: {
         extensions: ['*', '.js', '.jsx']
@@ -56,6 +56,17 @@ module.exports = {
                     options: {
                         name: '[name].[ext]',
                         outputPath: 'fonts/'
+                    },
+                },
+            },
+            {
+                test: /\.(mp4|webm)$/,
+                use: {
+                    loader: 'file-loader',
+                    options: {
+                        name: '[name].[contentHash].[ext]',
+                        outputPath: 'assets/videos/',
+                        publicPath: 'assets/videos/'
                     },
                 },
             },
