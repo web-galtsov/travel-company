@@ -8,7 +8,7 @@ module.exports = merge(common, {
     output: {
         filename: "[name].build.js",
         path: path.resolve ( __dirname, 'dist' ),
-        publicPath: '/'
+        publicPath: '/',
     },
     devServer: {
         contentBase: path.join ( __dirname, "build" ),
