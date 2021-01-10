@@ -1,0 +1,84 @@
+﻿https://www.youtube.com/watch?v=I2UBjN5ER4s
+
+https://www.youtube.com/watch?v=K7gRndVwu7g
+
+
+https://github.com/briancodex/react-website-v1
+
+
+https://github.com/web-galtsov/truvl-company
+
+
+https://www.npmjs.com/package/uglifyjs-webpack-plugin
+
+http://man.hubwiz.com/docset/webpack.docset/Contents/Resources/Documents/plugins-uglifyjs-webpack-plugin.html
+
+https://www.npmjs.com/package/terser-webpack-plugin
+
+https://survivejs.com/webpack/optimizing/minifying/
+
+
+https://github.com/Nikhil-Kumaran/reactjs-boilerplate/blob/master/webpack.config.js
+
+https://github.com/styled-components/webstorm-styled-components
+
+
+
+
+	git init
+
+	git add .
+	
+	git commit -m "stast project"
+
+	git remote add origin <linf for git>
+
+	git remote -v
+
+	git push origin master
+
+
+/// *********** WebPack *******************************//
+
+		npm install --save-dev webpack webpack-dev-server webpack-cli
+
+		npm install --save-dev cross-env
+
+		npm install --save-dev clean-webpack-plugin
+
+		npm install --save-dev html-webpack-plugin
+		
+		npm install --save-dev css-loade
+
+		npm install --save-dev mini-css-extract-plugin
+
+		npm install file-loader --save-dev
+
+		npm install --save-dev webpack-bundle-analyzer
+		
+		npm install terser-webpack-plugin --save-dev
+
+		npm install uglifyjs-webpack-plugin --save-dev   ---- Этот плагин использует uglify-js для минимизации вашего JavaScript.
+
+		npm i webpack-merge
+
+
+
+
+		npm i @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev
+
+		npm install --save-dev @babel/plugin-proposal-class-properties
+
+		npm i webpack-merge
+
+
+
+		npm install --save-dev react-hot-loader
+
+		npm install --save react react-dom
+
+
+		
+
+
+		
